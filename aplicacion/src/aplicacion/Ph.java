@@ -14,7 +14,7 @@ public class Ph extends Window{
 	}
 	
 	@Override
-	public void llenarElementos() {
+	public void modElementos() {
 
 	}
 	

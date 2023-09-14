@@ -5,16 +5,14 @@ import javax.swing.JPanel;
 
 public class Estaciones extends Window{
 
-	JPanel panel;
 	JLabel titulo;
-	
 	
 	public Estaciones(){
 		super("Estaciones");
 		panel = new JPanel();
 		
 		crearElementos();
-		llenarElementos();
+		modElementos();
 		agregarAlPanel();
 		
 		ponerPanel(panel);
@@ -22,12 +20,11 @@ public class Estaciones extends Window{
 	
 	@Override
 	public void crearElementos() {
-		titulo = new JLabel();
+		titulo = new JLabel("Estaciones");
 	}
 	
 	@Override
-	public void llenarElementos() {
-		titulo.setText("Estaciones");
+	public void modElementos() {
 		titulo.setBounds(this.getWidth()/2,20,200,20);
 	}
 	
