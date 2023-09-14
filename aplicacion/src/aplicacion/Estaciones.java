@@ -1,8 +1,9 @@
 package aplicacion;
 
+import java.awt.FlowLayout;
+
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.SwingConstants;
 
 public class Estaciones extends Window{
 
@@ -10,7 +11,6 @@ public class Estaciones extends Window{
 	
 	public Estaciones(){
 		super("Estaciones");
-		panel = new JPanel();
 		
 		crearElementos();
 		modElementos();
@@ -26,8 +26,9 @@ public class Estaciones extends Window{
 	
 	@Override
 	public void modElementos() {
-		titulo.setSize(500, 20);
-		titulo.setAlignmentX(CENTER_ALIGNMENT);
+		titulo.setSize(200, 20);
+		titulo.setHorizontalAlignment(JLabel.CENTER);
+		
 	}
 	
 	@Override
