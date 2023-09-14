@@ -3,10 +3,11 @@ package aplicacion;
 
 public class Principal {
 
-	static Window estaciones,ph;
+	static Window menuPrincipal, estaciones,ph;
 	
 	public static void main(String [] args) {
-		//estaciones = new Estaciones();
-		ph = new Ph();
+		menuPrincipal = new MenuPrincipal();
+		estaciones = new Estaciones();
+		//ph = new Ph();
 	}		
 }
