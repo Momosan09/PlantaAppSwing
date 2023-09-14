@@ -31,6 +31,7 @@ public final class Ph extends Window{
 	
 	@Override
 	public void modElementos() {
+<<<<<<< HEAD
 		//panel.setLayout(gl);
 		panel.setLayout(null);
 		labelSueloAc.setSize(100, 100);
@@ -38,6 +39,9 @@ public final class Ph extends Window{
 		labelSueloAc.setAlignmentY(CENTER_ALIGNMENT);
 		
 		
+=======
+
+>>>>>>> 352bda254483e3204138ff216875ce0be951a2b2
 	}
 	
 	@Override
