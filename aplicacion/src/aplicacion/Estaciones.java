@@ -2,6 +2,7 @@ package aplicacion;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.SwingConstants;
 
 public class Estaciones extends Window{
 
@@ -25,7 +26,8 @@ public class Estaciones extends Window{
 	
 	@Override
 	public void modElementos() {
-		titulo.setBounds(this.getWidth()/2,20,200,20);
+		titulo.setSize(500, 20);
+		titulo.setAlignmentX(CENTER_ALIGNMENT);
 	}
 	
 	@Override
