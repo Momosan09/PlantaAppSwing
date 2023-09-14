@@ -14,7 +14,7 @@ public class Estaciones extends Window{
 		panel = new JPanel();
 		
 		crearElementos();
-		llenarElementos();
+		modElementos();
 		agregarAlPanel();
 		
 		ponerPanel(panel);
@@ -26,7 +26,7 @@ public class Estaciones extends Window{
 	}
 	
 	@Override
-	public void llenarElementos() {
+	public void modElementos() {
 		titulo.setText("Estaciones");
 		titulo.setBounds(this.getWidth()/2,20,200,20);
 	}

@@ -23,7 +23,7 @@ public abstract class Window extends JFrame{
   
   public abstract void crearElementos();
   
-  public abstract void llenarElementos();
+  public abstract void modElementos();
   
   public abstract void agregarAlPanel();
 
