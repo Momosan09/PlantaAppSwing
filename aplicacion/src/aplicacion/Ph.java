@@ -32,10 +32,10 @@ public final class Ph extends Window{
 	@Override
 	public void modElementos() {
 		//panel.setLayout(gl);
-		panel.setLayout(null);
+		//panel.setLayout(null);
 		labelSueloAc.setSize(100, 100);
 		labelSueloAlc.setSize(100, 100);
-		labelSueloAc.setHorizontalAlignment(JLabel.CENTER);
+		labelSueloAc.setAlignmentX(CENTER_ALIGNMENT);
 		labelSueloAlc.setHorizontalAlignment(JLabel.CENTER);
 	}
 	

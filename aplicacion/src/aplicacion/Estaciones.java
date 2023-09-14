@@ -28,7 +28,8 @@ public class Estaciones extends Window{
 	@Override
 	public void modElementos() {
 		titulo.setText("Estaciones");
-		titulo.setBounds(this.getWidth()/2,20,200,20);
+		titulo.setAlignmentX(BOTTOM_ALIGNMENT);
+		//titulo.setBounds(this.getWidth()/2,20,200,20);
 	}
 	
 	@Override

@@ -8,6 +8,6 @@ public class Principal {
 	public static void main(String [] args) {
 		menuPrincipal = new MenuPrincipal();
 		estaciones = new Estaciones();
-		//ph = new Ph();
+		ph = new Ph();
 	}		
 }
