@@ -27,7 +27,7 @@ public class MenuPrincipal extends Window{
 	@Override
 	public void agregarAlPanel() {
 		// TODO Auto-generated method stub
-		
+	
 	}
 	
 	}

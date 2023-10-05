@@ -17,6 +17,7 @@ public abstract class Window extends JFrame{
     setEnabled(true);
     setVisible(true);
     
+    this.getContentPane().add(panel);//poner panel
     //setExtendedState(JFrame.MAXIMIZED_BOTH);
   }
   
@@ -25,12 +26,5 @@ public abstract class Window extends JFrame{
   public abstract void modElementos();
   
   public abstract void agregarAlPanel();
-
-  public void ponerPanel(JPanel panel){
-    //panel.setLayout(null);
-    this.getContentPane().add(panel);
-
-  }
-
 
 }
