@@ -4,7 +4,7 @@ package aplicacion;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public abstract class Window extends JFrame{
+public abstract class Window extends JFrame implements MetodosSwing{
   public JPanel panel = new JPanel();
 
   public Window(String titulo){
